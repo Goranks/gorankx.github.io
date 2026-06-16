@@ -8,41 +8,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="tooplate-stellaris-style.css" rel="stylesheet">
-    
 <!--
-
 Tooplate 2140 Stellaris Research
-
 https://www.tooplate.com/view/2140-stellaris-research
-
 Free HTML CSS Template
-
 -->
 </head>
 <body>
     <!-- Real-time dynamic network grid background to replace the starfield canvas -->
     <div class="seo-grid-bg" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #0b071e; background-image: linear-gradient(rgba(139, 92, 246, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(139, 92, 246, 0.03) 1px, transparent 1px); background-size: 40px 40px; z-index: -2;"></div>
 
+    <!-- =================================================================
+         NAVIGATION HEADER
+    ================================================================== -->
     <nav id="navbar">
         <div class="nav-container">
-            <a href="#home" class="logo-container">
-                <!-- SEO Scaling / Rank Tracker Node Vector Logo -->
-                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px;">
-                    <!-- Trend Grid Base -->
-                    <path d="M15 85 L85 85" stroke="rgba(255,255,255,0.2)" stroke-width="2" stroke-linecap="round"/>
-                    <path d="M15 15 L15 85" stroke="rgba(255,255,255,0.2)" stroke-width="2" stroke-linecap="round"/>
-                    
-                    <!-- Climbing Analytics Trendline -->
-                    <path d="M20 75 L40 60 L60 35 L85 15" fill="none" stroke="var(--solar-gold, #f59e0b)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    
-                    <!-- Active Key Search Metric Target -->
-                    <circle cx="85" cy="15" r="5" fill="#8b5cf6">
-                        <animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
-                    </circle>
-                    <circle cx="60" cy="35" r="3.5" fill="#fff"/>
-                    <circle cx="40" cy="60" r="3.5" fill="#fff"/>
-                </svg>
-                <span class="logo-text">KUBRA.SEO</span>
+            <!-- Typographic Text Logo Configuration -->
+            <a href="#home" class="logo-container" style="display: flex; align-items: center; gap: 8px; text-decoration: none;">
+                <span class="logo-text" style="font-size: 1.4rem; font-weight: 800; letter-spacing: 1.5px; color: #fff; font-family: inherit;">
+                    KUBRA<span style="color: var(--solar-gold, #f59e0b);">.</span>SEO
+                </span>
             </a>
             
             <div class="mobile-menu-toggle" id="mobile-toggle">
@@ -55,6 +40,7 @@ Free HTML CSS Template
                 <ul>
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#about">PROFILE</a></li>
+                    <li><a href="#services">SERVICES</a></li>
                     <li><a href="#missions">CASE STUDIES</a></li>
                     <li><a href="#equipment">TECH STACK</a></li>
                     <li><a href="#contact">HIRE ME</a></li>
@@ -63,8 +49,10 @@ Free HTML CSS Template
         </div>
     </nav>
 
-    <!-- HERO PROFILE SECTION -->
-    <section id="home" class="hero" style="position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; min-height: 100vh; background: radial-gradient(circle at 50% 50%, rgba(26, 15, 56, 0.7) 0%, #0b071e 100%);">
+    <!-- =================================================================
+         HERO PROFILE SECTION
+    ================================================================== -->
+    <section id="home" class="hero" style="position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; height: 100vh; background: radial-gradient(circle at 50% 50%, rgba(26, 15, 56, 0.7) 0%, #0b071e 100%); padding-top: 80px; box-sizing: border-box;">
         
         <!-- Subtle Organic Trailing Glow and Grid Accelerators instead of space orbs -->
         <div class="growth-glow" style="position: absolute; width: 600px; height: 600px; background: radial-gradient(circle, rgba(139, 92, 246, 0.08) 0%, transparent 70%); top: -10%; right: -5%; pointer-events: none;"></div>
@@ -80,422 +68,515 @@ Free HTML CSS Template
             <div style="width: 8%; height: 95%; background: linear-gradient(to top, rgba(245,158,11,0.4), transparent); border-radius: 4px 4px 0 0;"></div>
         </div>
         
-        <div class="hero-content" style="position: relative; z-index: 1; text-align: center; padding: 0 20px;">
+        <!-- Main Typography Elements Wrapper -->
+        <div class="hero-content" style="position: relative; z-index: 5; text-align: center; padding: 0 20px; display: block; visibility: visible; opacity: 1;">
             <!-- Floating Indexing Signal Tag -->
             <div class="rank-tag" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.3); padding: 6px 16px; border-radius: 30px; margin-bottom: 25px;">
                 <span style="width: 8px; height: 8px; background: #10b981; border-radius: 50%; display: inline-block; box-shadow: 0 0 8px #10b981;"></span>
                 <span style="font-size: 0.75rem; font-weight: 600; letter-spacing: 1.5px; color: #fff; text-transform: uppercase;">GENERATIVE & ENGINES OPTIMIZED</span>
             </div>
 
-            <h1 class="cosmic-title" style="font-size: calc(2.5rem + 2.5vw); font-weight: 800; letter-spacing: 2px; margin: 0 0 10px 0; background: linear-gradient(to right, #fff 40%, var(--solar-gold, #f59e0b) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">KHADIJA KUBRA MUGHAL</h1>
-            <p class="subtitle" style="font-size: calc(1rem + 0.3vw); color: #ccc; max-width: 650px; margin: 0 auto; letter-spacing: 0.5px; line-height: 1.5;">Advanced SEO Architect & Web Optimization Manager</p>
+            <!-- Main Heading Name Layout -->
+            <h1 class="cosmic-title" style="font-size: calc(2.5rem + 2.5vw); font-weight: 800; letter-spacing: 2px; margin: 0 0 15px 0; line-height: 1.2; color: #ffffff; display: block;">
+                KHADIJA KUBRA MUGHAL
+            </h1>
+            
+            <!-- Professional Strategy Subtitle -->
+            <p class="subtitle" style="font-size: calc(1rem + 0.3vw); color: #cccccc; max-width: 650px; margin: 0 auto; letter-spacing: 0.5px; line-height: 1.5; display: block;">
+                Advanced SEO Architect & Web Optimization Manager
+            </p>
         </div>
 
-        <a href="#about" class="scroll-btn">
-            <div class="scroll-btn-inner">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <!-- Bottom Navigation Scroll Anchor -->
+        <a href="#about" class="scroll-btn" style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); z-index: 5; display: block;">
+            <div class="scroll-btn-inner" style="display: flex; align-items: center; justify-content: center;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 24px; height: 24px; color: #fff;">
                     <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
                 </svg>
             </div>
         </a>
     </section>
 
+    <!-- =================================================================
+         OPTIMIZATION PROFILE SECTION
+    ================================================================== -->
     <section id="about" class="fade-in">
-    <h2 class="section-title">OPTIMIZATION PROFILE</h2>
-    <div class="about-section">
-        <div class="about-hero">
-            <h3>Scaling Organic Performance Globally</h3>
-            <p class="about-description">
-                Results-driven SEO Specialist and Digital Marketing Strategist specializing in technical audits, platform architecture, and enterprise search execution. I bridge the gap between complex backend data and sustainable, revenue-generating search visibility loops.
-            </p>
-        </div>
-        
-        <div class="about-grid">
-            <!-- Pillar 1: Technical Audits -->
-            <div class="about-card">
-                <span class="about-card-icon">🔍</span>
-                <h4>Technical Audits</h4>
-                <p>Advanced crawl mapping via log parsing, canonical routing correction, server-side code diagnostic optimization, and structural sitemap deployment.</p>
+        <h2 class="section-title">OPTIMIZATION PROFILE</h2>
+        <div class="about-section">
+            <div class="about-hero">
+                <h3>Scaling Organic Performance Globally</h3>
+                <p class="about-description">
+                    Results-driven SEO Specialist and Digital Marketing Strategist specializing in technical audits, platform architecture, and enterprise search execution. I bridge the gap between complex backend data and sustainable, revenue-generating search visibility loops.
+                </p>
             </div>
             
-            <!-- Pillar 2: Core SEO Execution (Replaces NASA) -->
-            <div class="about-card">
-                <span class="about-card-icon">📈</span>
-                <h4>Organic Strategy</h4>
-                <p>Leading search initiatives through semantic keyword planning, siloed on-page layout engineering, and data-backed local map visibility.</p>
+            <div class="about-grid">
+                <!-- Pillar 1: Technical Audits -->
+                <div class="about-card">
+                    <span class="about-card-icon">🔍</span>
+                    <h4>Technical Audits</h4>
+                    <p>Advanced crawl mapping via log parsing, canonical routing correction, server-side code diagnostic optimization, and structural sitemap deployment.</p>
+                </div>
+                
+                <!-- Pillar 2: Core SEO Execution -->
+                <div class="about-card">
+                    <span class="about-card-icon">📈</span>
+                    <h4>Organic Strategy</h4>
+                    <p>Leading search initiatives through semantic keyword planning, siloed on-page layout engineering, and data-backed local map visibility.</p>
+                </div>
+                
+                <!-- Pillar 3: E-Commerce Architecture -->
+                <div class="about-card">
+                    <span class="about-card-icon">🛒</span>
+                    <h4>CMS & E-Comm Engine</h4>
+                    <p>Full-scale product taxonomy mapping, migration security pipelines (Squarespace to Shopify), and custom lead automation loops.</p>
+                </div>
+
+                <!-- Pillar 4: AEO & GEO Tracking -->
+                <div class="about-card">
+                    <span class="about-card-icon">🤖</span>
+                    <h4>AI Search Visibility</h4>
+                    <p>Optimizing web properties for AI-driven response environments, brand footprint monitoring, and Generative Engine Optimization (GEO).</p>
+                </div>
             </div>
             
-            <!-- Pillar 3: E-Commerce Architecture -->
-            <div class="about-card">
-                <span class="about-card-icon">🛒</span>
-                <h4>CMS & E-Comm Engine</h4>
-                <p>Full-scale product taxonomy mapping, migration security pipelines (Squarespace to Shopify), and custom lead automation loops.</p>
-            </div>
-
-            <!-- Pillar 4: AEO & GEO Tracking -->
-            <div class="about-card">
-                <span class="about-card-icon">🤖</span>
-                <h4>AI Search Visibility</h4>
-                <p>Optimizing web properties for AI-driven response environments, brand footprint monitoring, and Generative Engine Optimization (GEO).</p>
-            </div>
-        </div>
-        
-        <!-- Performance Metric Counters -->
-        <div class="achievements-grid">
-            <div class="achievement-item">
-                <div class="achievement-number">SEO</div>
-                <div class="achievement-label">Core Focus Specialist</div>
-            </div>
-            <div class="achievement-item">
-                <div class="achievement-number">100%</div>
-                <div class="achievement-label">Data-Driven Operations</div>
-            </div>
-            <div class="achievement-item">
-                <div class="achievement-number">+95%</div>
-                <div class="achievement-label">Top Case Traffic Lift</div>
-            </div>
-            <div class="achievement-item">
-                <div class="achievement-number">AEO</div>
-                <div class="achievement-label">Generative Engine Prep</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <section id="missions" class="missions-section">
-    <h2 class="section-title">PERFORMANCE CASES</h2>
-
-    <!-- Navigation Tabs for your cases -->
-    <div class="mission-tabs">
-        <button class="mission-tab active" data-tab="bodyhaus">BodyHaus Lifestyle Club</button>
-        <button class="mission-tab" data-tab="msarch">MSarch Digital</button>
-        <button class="mission-tab" data-tab="acompio">Acompio Optimization</button>
-    </div>
-
-    <!-- CASE 1: BODYHAUS LIFESTYLE CLUB -->
-    <div class="mission-content active" id="bodyhaus">
-        <div class="mission-grid" style="display: grid; grid-template-columns: 1fr; gap: 30px;">
-            <div class="mission-card" style="width: 100%; text-align: left;">
-                <h4>bodyhauslifestyleclub.com — Domain Architecture & Core Growth</h4>
-                <p>Executed an intensive search visibility strategy that successfully scaled the domain rating, keyword penetration, and organic engagement loops.</p>
-                
-                <!-- Metric Comparison Screenshot -->
-                <h5 style="color: var(--solar-gold); margin: 20px 0 5px 0;">Ahrefs, Semrush, & Moz Comparison (Before vs Current)</h5>
-                <div class="screenshot-container" style="margin-bottom: 20px; overflow: hidden; border-radius: 8px; border: 1px solid rgba(139, 92, 246, 0.4);">
-                    <img src="bodyhaus-metrics.png" alt="BodyHaus Domain Comparison" style="width: 100%; display: block; height: auto;">
+            <!-- Performance Metric Counters -->
+            <div class="achievements-grid">
+                <div class="achievement-item">
+                    <div class="achievement-number">SEO</div>
+                    <div class="achievement-label">Core Focus Specialist</div>
                 </div>
-
-                <!-- Traffic Analytics & GSC Grid -->
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px;">
-                    <div>
-                        <h5 style="color: var(--solar-gold); margin-bottom: 5px;">30-Day Traffic Snapshot</h5>
-                        <div class="screenshot-container" style="overflow: hidden; border-radius: 8px; border: 1px solid rgba(139, 92, 246, 0.4);">
-                            <img src="bodyhaus-traffic.png" alt="BodyHaus Analytics Traffic" style="width: 100%; display: block; height: auto;">
-                        </div>
-                    </div>
-                    <div>
-                        <h5 style="color: var(--solar-gold); margin-bottom: 5px;">Google Search Console Performance</h5>
-                        <div class="screenshot-container" style="overflow: hidden; border-radius: 8px; border: 1px solid rgba(139, 92, 246, 0.4);">
-                            <img src="bodyhaus-gsc.png" alt="BodyHaus Google Search Console" style="width: 100%; display: block; height: auto;">
-                        </div>
-                    </div>
+                <div class="achievement-item">
+                    <div class="achievement-number">100%</div>
+                    <div class="achievement-label">Data-Driven Operations</div>
                 </div>
-
-                <!-- Executive Summary Block -->
-                <div class="executive-summary" style="margin-top: 30px; padding: 20px; background: rgba(255, 255, 255, 0.03); border-left: 4px solid var(--solar-gold); border-radius: 0 8px 8px 0;">
-                    <h5 style="color: var(--solar-gold); margin-bottom: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Executive Strategy Summary</h5>
-                    <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 12px; color: #e0e0e0;">
-                        To drive these visibility shifts, I designed and executed a multi-layered, complete SEO campaign covering everything from backend optimization to targeted lead acquisition.
-                    </p>
-                    <ul style="list-style-type: none; padding: 0; margin: 0; font-size: 0.9rem; color: #ccc;">
-                        <li style="margin-bottom: 8px;"><strong>🛠️ Technical & Audit Framework:</strong> Conducted comprehensive technical audits to isolate script bloat, eliminate broken indexation paths, and correct canonical routing errors.</li>
-                        <li style="margin-bottom: 8px;"><strong>✍️ On-Page Engine:</strong> Overhauled metadata hierarchies, optimized core content layouts for targeted high-intent commercial keywords, and stabilized the internal linking siloing strategy.</li>
-                        <li style="margin-bottom: 8px;"><strong>📈 Marketing & Local SEO:</strong> Designed geo-targeted local marketing strategies to secure regional dominance while simultaneously preparing the structural web elements for emerging AI Search visibility ecosystems.</li>
-                        <li style="margin-bottom: 0;"><strong>🔗 Off-Page Authority:</strong> Directed a high-tier link acquisition roadmap focused on trust signals and industry contextual alignment to permanently drive domain authority.</li>
-                    </ul>
+                <div class="achievement-item">
+                    <div class="achievement-number">+95%</div>
+                    <div class="achievement-label">Top Case Traffic Lift</div>
                 </div>
-
-                <div style="margin-top: 20px;">
-                    <span class="mission-status" style="margin-right: 10px;">DR: 0.4 → 14</span>
-                    <span class="mission-status" style="margin-right: 10px;">Traffic: 1.1K Organic</span>
-                    <span class="mission-status">GSC: 2.12K Clicks</span>
+                <div class="achievement-item">
+                    <div class="achievement-number">AEO</div>
+                    <div class="achievement-label">Generative Engine Prep</div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- CASE 2: MSARCH -->
-    <div class="mission-content" id="msarch">
-        <div class="mission-grid" style="display: grid; grid-template-columns: 1fr; gap: 30px;">
-            <div class="mission-card" style="width: 100%; text-align: left;">
-                <h4>msarch.co.uk — Authority & Backlink Engineering</h4>
-                <p>Designed a link-building and domain authority infrastructure project, correcting indexation profiles and driving deeper referring domain coverage.</p>
-                
-                <h5 style="color: var(--solar-gold); margin: 20px 0 5px 0;">Ahrefs, Semrush, & Moz Footprint (Before vs After)</h5>
-                <div class="screenshot-container" style="margin-bottom: 20px; overflow: hidden; border-radius: 8px; border: 1px solid rgba(139, 92, 246, 0.4);">
-                    <img src="msarch-metrics.png" alt="MSarch SEO Improvements" style="width: 100%; display: block; height: auto;">
-                </div>
-
-                <!-- Executive Summary Block -->
-                <div class="executive-summary" style="margin-top: 30px; padding: 20px; background: rgba(255, 255, 255, 0.03); border-left: 4px solid var(--solar-gold); border-radius: 0 8px 8px 0;">
-                    <h5 style="color: var(--solar-gold); margin-bottom: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Executive Strategy Summary</h5>
-                    <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 12px; color: #e0e0e0;">
-                        This regional technical profile demanded an aggressive off-page initiative supported heavily by foundational technical compliance to safely scale search data performance.
-                    </p>
-                    <ul style="list-style-type: none; padding: 0; margin: 0; font-size: 0.9rem; color: #ccc;">
-                        <li style="margin-bottom: 8px;"><strong>🔍 Core Auditing & Tech SEO:</strong> Uncovered deep-crawl blocks preventing backlink juice from distributing cleanly. Standardized XML sitemaps, robots directives, and site load patterns.</li>
-                        <li style="margin-bottom: 8px;"><strong>🌐 Off-Page Dominance:</strong> Engineered a scalable link-acquisition dynamic that scaled active backlinks from 267 to 6.0K, vastly expanding trust footprints across international tracking tools.</li>
-                        <li style="margin-bottom: 0;"><strong>📊 Integrated Marketing:</strong> Tied target pages to specific local and intent-based organic marketing funnels to capture traffic momentum once domain authority metrics verified a safe upward lift.</li>
-                    </ul>
-                </div>
-
-                <div style="margin-top: 20px;">
-                    <span class="mission-status" style="margin-right: 10px;">Backlinks: 267 → 6.0K</span>
-                    <span class="mission-status" style="margin-right: 10px;">Ref. Domains: 370</span>
-                    <span class="mission-status">DA: 23 → 24</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- CASE 3: ACOMPIO -->
-    <div class="mission-content" id="acompio">
-        <div class="mission-grid" style="display: grid; grid-template-columns: 1fr; gap: 30px;">
-            <div class="mission-card" style="width: 100%; text-align: left;">
-                <h4>acompio.co.uk — Large Scale Crawl Optimization</h4>
-                <p>Managed technical crawl optimizations to stabilize keyword positions and expand organic traffic performance margins across high-volume targets.</p>
-                
-                <h5 style="color: var(--solar-gold); margin: 20px 0 5px 0;">Ahrefs, Semrush, & Moz Footprint (Before vs After)</h5>
-                <div class="screenshot-container" style="margin-bottom: 20px; overflow: hidden; border-radius: 8px; border: 1px solid rgba(139, 92, 246, 0.4);">
-                    <img src="acompio-metrics.png" alt="Acompio Optimization Performance" style="width: 100%; display: block; height: auto;">
-                </div>
-
-                <!-- Executive Summary Block -->
-                <div class="executive-summary" style="margin-top: 30px; padding: 20px; background: rgba(255, 255, 255, 0.03); border-left: 4px solid var(--solar-gold); border-radius: 0 8px 8px 0;">
-                    <h5 style="color: var(--solar-gold); margin-bottom: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Executive Strategy Summary</h5>
-                    <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 12px; color: #e0e0e0;">
-                        Optimizing an established domain with heavy inbound link volumes required deep diagnostic precision to ensure technical parameters perfectly sustained high traffic weight.
-                    </p>
-                    <ul style="list-style-type: none; padding: 0; margin: 0; font-size: 0.9rem; color: #ccc;">
-                        <li style="margin-bottom: 8px;"><strong>⚙️ High-Volume Technical SEO:</strong> Performed advanced database, architectural, and server-side analysis to keep continuous rendering speeds responsive during intensive crawler cycles.</li>
-                        <li style="margin-bottom: 8px;"><strong>📈 Strategic Content On-Page:</strong> Remapped key page groups and schema templates to systematically improve keyword intent matching across massive directory scales.</li>
-                        <li style="margin-bottom: 0;"><strong>🛡️ Authority Management (Off-Page):</strong> Shielded existing properties from inbound toxicity while continuing to monitor clean, diverse link acquisition parameters that pushed organic traffic indicators up by +95%.</li>
-                    </ul>
-                </div>
-
-                <div style="margin-top: 20px;">
-                    <span class="mission-status" style="margin-right: 10px;">Organic Traffic: +95% Lift</span>
-                    <span class="mission-status" style="margin-right: 10px;">Inbound Links: 849.3K</span>
-                    <span class="mission-status">DR Level: 52</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <section id="equipment" class="equipment-section" style="padding: 100px 0; background: rgba(11, 7, 30, 0.6); position: relative; z-index: 1;">
-    <h2 class="section-title">CORE TECHNOLOGIES</h2>
-    <p style="text-align: center; color: #bbb; max-width: 650px; margin: -20px auto 5px auto; font-size: 0.95rem; line-height: 1.6; padding: 0 20px;">
-        Enterprise-grade diagnostics and raw analytics tooling deployed to map, track, and scale index performance.
-    </p>
-    
-    <!-- Matrix Dashboard Container -->
-    <div style="max-width: 1050px; margin: 50px auto 0 auto; padding: 0 20px; box-sizing: border-box;">
-        <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(139, 92, 246, 0.25); border-radius: 12px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
-            
-            <!-- Matrix Header (Hidden on small mobile view via standard CSS if needed, but clean here) -->
-            <div style="display: grid; grid-template-columns: 220px 1fr; background: rgba(139, 92, 246, 0.1); border-bottom: 1px solid rgba(139, 92, 246, 0.25); padding: 15px 25px; font-weight: 700; font-size: 0.85rem; letter-spacing: 1px; color: var(--solar-gold, #f59e0b);">
-                <div>ENGINE & PLATFORM</div>
-                <div>TECHNICAL CAPABILITY & APPLICATION ROADMAP</div>
-            </div>
-
-            <!-- Tool Row 1: Screaming Frog -->
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); border-bottom: 1px solid rgba(255,255,255,0.05); padding: 25px; align-items: center; gap: 15px; background: rgba(255,255,255,0.01);">
-                <div style="display: flex; align-items: center; gap: 12px; min-width: 180px;">
-                    <span style="font-size: 1.8rem; line-height: 1;">🐸</span>
-                    <span style="font-weight: 700; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px;">Screaming Frog</span>
-                </div>
-                <div style="color: #ccc; font-size: 0.9rem; line-height: 1.6; padding-left: 5px;">
-                    Advanced log file parsing, deep Javascript rendering analysis, raw directory crawl depth mapping, and automated diagnostic monitoring for broken indexation paths.
-                </div>
-            </div>
-
-            <!-- Tool Row 2: Ahrefs -->
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); border-bottom: 1px solid rgba(255,255,255,0.05); padding: 25px; align-items: center; gap: 15px;">
-                <div style="display: flex; align-items: center; gap: 12px; min-width: 180px;">
-                    <span style="font-size: 1.8rem; line-height: 1;">📊</span>
-                    <span style="font-weight: 700; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px;">Ahrefs Engine</span>
-                </div>
-                <div style="color: #ccc; font-size: 0.9rem; line-height: 1.6; padding-left: 5px;">
-                    In-depth organic competitive gap tracking, targeted live link profile auditing, historical link acquisition health validation, and search intent equity scoping.
-                </div>
-            </div>
-
-            <!-- Tool Row 3: Semrush -->
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); border-bottom: 1px solid rgba(255,255,255,0.05); padding: 25px; align-items: center; gap: 15px; background: rgba(255,255,255,0.01);">
-                <div style="display: flex; align-items: center; gap: 12px; min-width: 180px;">
-                    <span style="font-size: 1.8rem; line-height: 1;">🔥</span>
-                    <span style="font-weight: 700; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px;">Semrush Suite</span>
-                </div>
-                <div style="color: #ccc; font-size: 0.9rem; line-height: 1.6; padding-left: 5px;">
-                    Daily position volatility tracking, algorithmic penalty isolation, keyword cannibalization detection, and real-time competitor Share-of-Voice dashboard analysis.
-                </div>
-            </div>
-
-            <!-- Tool Row 4: GSC -->
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); border-bottom: 1px solid rgba(255,255,255,0.05); padding: 25px; align-items: center; gap: 15px;">
-                <div style="display: flex; align-items: center; gap: 12px; min-width: 180px;">
-                    <span style="font-size: 1.8rem; line-height: 1;">📈</span>
-                    <span style="font-weight: 700; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px;">Search Console</span>
-                </div>
-                <div style="color: #ccc; font-size: 0.9rem; line-height: 1.6; padding-left: 5px;">
-                    Direct crawling error discovery, core indexation coverage mapping, custom XML sitemap validation, and structured data/rich schema layout tracking.
-                </div>
-            </div>
-
-            <!-- Tool Row 5: GA4 / GTM -->
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); border-bottom: 1px solid rgba(255,255,255,0.05); padding: 25px; align-items: center; gap: 15px; background: rgba(255,255,255,0.01);">
-                <div style="display: flex; align-items: center; gap: 12px; min-width: 180px;">
-                    <span style="font-size: 1.8rem; line-height: 1;">⚙️</span>
-                    <span style="font-weight: 700; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px;">GA4 & GTM</span>
-                </div>
-                <div style="color: #ccc; font-size: 0.9rem; line-height: 1.6; padding-left: 5px;">
-                    Custom conversion event execution, cross-domain behavioral modeling data filters, custom attribution setups, and tracking script optimization for page speed protection.
-                </div>
-            </div>
-
-            <!-- Tool Row 6: E-Comm Platforms -->
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); padding: 25px; align-items: center; gap: 15px;">
-                <div style="display: flex; align-items: center; gap: 12px; min-width: 180px;">
-                    <span style="font-size: 1.8rem; line-height: 1;">🚀</span>
-                    <span style="font-weight: 700; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px;">E-Comm / CMS</span>
-                </div>
-                <div style="color: #ccc; font-size: 0.9rem; line-height: 1.6; padding-left: 5px;">
-                    Structural category and taxonomy cleanups across Shopify, WordPress, and Squarespace to handle safe URL pattern rewrites and metadata mass-injection loops.
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-    <section id="contact" class="contact-section" style="padding: 80px 0; background: rgba(0, 0, 0, 0.4);">
-    <h2 class="section-title">HIRE ME</h2>
-    <p style="text-align: center; color: #ccc; max-width: 600px; margin: -20px auto 40px auto; font-size: 0.95rem; line-height: 1.6;">
-        Ready to scale your search engine visibility, clear out legacy technical debt, or map out an aggressive international traffic growth strategy? Let's connect.
-    </p>
-
-    <div class="contact-container" style="max-width: 1100px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
-        
-        <!-- Direct Communication Channels Card -->
-        <div class="contact-info-card" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(139, 92, 246, 0.2); border-radius: 8px; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
-            <h3 style="color: var(--solar-gold); font-size: 1.4rem; margin-bottom: 20px; letter-spacing: 0.5px;">DIRECT CHANNELS</h3>
-            <p style="font-size: 0.95rem; color: #aaa; line-height: 1.6; margin-bottom: 30px;">
-                Drop me a line directly via phone or email for instantaneous project onboarding inquiries, technical consultancy scheduling, or long-term contract discussions.
-            </p>
-            
-            <div style="margin-bottom: 20px;">
-                <span style="font-size: 0.85rem; color: #777; display: block; text-transform: uppercase; letter-spacing: 1px;">Email Business Desk</span>
-                <a href="mailto:kubramughal770@gmail.com" style="color: #fff; font-size: 1.1rem; text-decoration: none; font-weight: 500; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#fff'">
-                    kubramughal770@gmail.com
-                </a>
-            </div>
-
-            <div>
-                <span style="font-size: 0.85rem; color: #777; display: block; text-transform: uppercase; letter-spacing: 1px;">Direct Contact Number</span>
-                <a href="tel:+923196095307" style="color: #fff; font-size: 1.1rem; text-decoration: none; font-weight: 500; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#fff'">
-                    03196095307
-                </a>
-            </div>
-        </div>
-
-        <!-- Interactive Strategy Request Form -->
-        <div class="contact-form-wrapper">
-            <form class="contact-form" style="display: flex; flex-direction: column; gap: 15px;">
-                <div class="form-group" style="position: relative;">
-                    <input type="text" placeholder="Your Name / Company Name" required style="width: 100%; padding: 15px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; color: #fff; font-family: inherit; outline: none; transition: border-color 0.3s;" onfocus="this.style.borderColor='var(--solar-gold)'" onblur="this.style.borderColor='rgba(255,255,255,0.1)'">
-                </div>
-                
-                <div class="form-group">
-                    <input type="email" placeholder="Business Email Address" required style="width: 100%; padding: 15px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; color: #fff; font-family: inherit; outline: none; transition: border-color 0.3s;" onfocus="this.style.borderColor='var(--solar-gold)'" onblur="this.style.borderColor='rgba(255,255,255,0.1)'">
-                </div>
-
-                <div class="form-group">
-                    <input type="text" placeholder="Website URL (Optional)" style="width: 100%; padding: 15px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; color: #fff; font-family: inherit; outline: none; transition: border-color 0.3s;" onfocus="this.style.borderColor='var(--solar-gold)'" onblur="this.style.borderColor='rgba(255,255,255,0.1)'">
-                </div>
-                
-                <div class="form-group">
-                    <textarea rows="5" placeholder="Describe your optimization bottlenecks or project goals..." required style="width: 100%; padding: 15px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; color: #fff; font-family: inherit; outline: none; resize: vertical; transition: border-color 0.3s;" onfocus="this.style.borderColor='var(--solar-gold)'" onblur="this.style.borderColor='rgba(255,255,255,0.1)'"></textarea>
-                </div>
-                
-                <button type="submit" class="launch-btn" style="background: var(--solar-gold, #8b5cf6); color: #fff; padding: 15px; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; letter-spacing: 1px; text-transform: uppercase; transition: opacity 0.3s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
-                    INITIATE AUDIT
-                </button>
-            </form>
-        </div>
-
-    </div>
-</section>
-
-    <footer style="padding: 60px 0 20px 0; background: rgba(0, 0, 0, 0.5); border-top: 1px solid rgba(139, 92, 246, 0.1);">
-    <div class="footer-content" style="max-width: 1100px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px;">
-        
-        <!-- Column 1: Core Optimization Competencies -->
-        <div class="footer-section">
-            <h3 style="color: var(--solar-gold); font-size: 1.1rem; margin-bottom: 20px; letter-spacing: 0.5px; text-transform: uppercase;">Optimization Focus</h3>
-            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px;">
-                <li><a href="#missions" style="color: #aaa; text-decoration: none; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#aaa'">Technical Site Audits</a></li>
-                <li><a href="#missions" style="color: #aaa; text-decoration: none; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#aaa'">Core Web Vitals Engineering</a></li>
-                <li><a href="#missions" style="color: #aaa; text-decoration: none; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#aaa'">Local SEO Strategies</a></li>
-                <li><a href="#equipment" style="color: #aaa; text-decoration: none; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#aaa'">Generative Engine Optimization (GEO)</a></li>
-                <li><a href="#equipment" style="color: #aaa; text-decoration: none; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#aaa'">Advanced Link Acquisition</a></li>
-            </ul>
-        </div>
-        
-        <!-- Column 2: Quick Navigation Links -->
-        <div class="footer-section">
-            <h3 style="color: var(--solar-gold); font-size: 1.1rem; margin-bottom: 20px; letter-spacing: 0.5px; text-transform: uppercase;">Quick Navigation</h3>
-            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px;">
-                <li><a href="#home" style="color: #aaa; text-decoration: none; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#aaa'">Return Home</a></li>
-                <li><a href="#about" style="color: #aaa; text-decoration: none; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#aaa'">Professional Profile</a></li>
-                <li><a href="#missions" style="color: #aaa; text-decoration: none; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#aaa'">Performance Cases</a></li>
-                <li><a href="#equipment" style="color: #aaa; text-decoration: none; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#aaa'">Core Technologies</a></li>
-                <li><a href="#contact" style="color: #aaa; text-decoration: none; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#aaa'">Initiate Project Audit</a></li>
-            </ul>
-        </div>
-        
-        <!-- Column 3: Professional Networks -->
-        <div class="footer-section">
-            <h3 style="color: var(--solar-gold); font-size: 1.1rem; margin-bottom: 20px; letter-spacing: 0.5px; text-transform: uppercase;">Professional Networks</h3>
-            <p style="color: #aaa; font-size: 0.9rem; line-height: 1.5; margin-bottom: 20px;">
-                Let's collaborate on advanced organic campaign architectures or custom tracking dashboard configurations.
-            </p>
-            <div class="social-links" style="display: flex; gap: 15px;">
-                <!-- LinkedIn Link Placeholder -->
-                <a href="#" aria-label="LinkedIn Profile" style="color: #aaa; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#aaa'">
-                    <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                    </svg>
-                </a>
-                
-                <!-- Email Click Shortcut -->
-                <a href="mailto:kubramughal770@gmail.com" aria-label="Direct Email" style="color: #aaa; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#aaa'">
-                    <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Bottom Bar With Correct Copyright Details -->
-    <div class="footer-bottom" style="max-width: 1100px; margin: 40px auto 0 auto; padding: 20px 20px 0 20px; border-top: 1px solid rgba(255,255,255,0.05); text-align: center;">
-        <p style="color: #777; font-size: 0.85rem; margin: 0; line-height: 1.6;">
-            &copy; 2026 Khadija Kubra Mughal. All Rights Reserved. Transforming global brands through precision data optimization. <br style="margin-bottom: 5px;">
-            Design Baseline: <a href="https://www.tooplate.com" target="_blank" rel="noopener nofollow" style="color: #999; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#999'">Tooplate</a>
+    <!-- =================================================================
+         STRATEGIC CORE SERVICES SECTION
+    ================================================================== -->
+    <section id="services" style="padding: 100px 0; background: rgba(11, 7, 30, 0.4);">
+        <h2 class="section-title">STRATEGIC SERVICES</h2>
+        <p style="text-align: center; color: #bbb; max-width: 650px; margin: -20px auto 50px auto; font-size: 0.95rem; line-height: 1.6; padding: 0 20px;">
+            Targeted search execution matrices crafted to acquire maximum real-estate across legacy search channels and modern generative systems.
         </p>
-    </div>
-</footer>
-<script src="tooplate-stellaris-script.js"></script>
+
+        <div style="max-width: 1100px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px;">
+            <!-- Service 1: On-Page SEO -->
+            <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(139, 92, 246, 0.15); border-radius: 8px; padding: 30px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="font-size: 2rem; margin-bottom: 15px;">✍️</div>
+                <h4 style="color: #fff; font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; letter-spacing: 0.5px;">On-Page SEO</h4>
+                <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin: 0;">
+                    Semantic optimization loops, H-tag structure planning, contextual entity extraction, programmatic internal text updates, and systemic keyword intent matching patterns.
+                </p>
+            </div>
+
+            <!-- Service 2: Off-Page SEO -->
+            <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(139, 92, 246, 0.15); border-radius: 8px; padding: 30px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="font-size: 2rem; margin-bottom: 15px;">🔗</div>
+                <h4 style="color: #fff; font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; letter-spacing: 0.5px;">Off-Page SEO</h4>
+                <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin: 0;">
+                    Authority acquisition blueprints, anchor text diversity calculation, premium contextual link placement, and comprehensive structural toxic profile auditing.
+                </p>
+            </div>
+
+            <!-- Service 3: Technical SEO -->
+            <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(139, 92, 246, 0.15); border-radius: 8px; padding: 30px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="font-size: 2rem; margin-bottom: 15px;">⚙️</div>
+                <h4 style="color: #fff; font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; letter-spacing: 0.5px;">Technical SEO</h4>
+                <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin: 0;">
+                    Crawl budget maximization, schema semantic modeling, log file diagnostic engineering, page speed script deferral pipelines, and rendering error discovery.
+                </p>
+            </div>
+
+            <!-- Service 4: Local SEO -->
+            <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(139, 92, 246, 0.15); border-radius: 8px; padding: 30px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="font-size: 2rem; margin-bottom: 15px;">📍</div>
+                <h4 style="color: #fff; font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; letter-spacing: 0.5px;">Local SEO</h4>
+                <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin: 0;">
+                    Google Business Profile optimization, localized citation footprint alignment, geo-targeted content silos, and regional rank radar positioning tracking loops.
+                </p>
+            </div>
+
+            <!-- Service 5: GEO (Generative Engine Optimization) -->
+            <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(139, 92, 246, 0.15); border-radius: 8px; padding: 30px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="font-size: 2rem; margin-bottom: 15px;">🤖</div>
+                <h4 style="color: #fff; font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; letter-spacing: 0.5px;">GEO (Generative Engine Optimization)</h4>
+                <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin: 0;">
+                    Formatting data schemas to maximize inclusion in AI-generated direct answer snippets, perplexity citations, and organic LLM overview reference links.
+                </p>
+            </div>
+
+            <!-- Service 6: AEO (Answer Engine Optimization) -->
+            <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(139, 92, 246, 0.15); border-radius: 8px; padding: 30px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="font-size: 2rem; margin-bottom: 15px;">💬</div>
+                <h4 style="color: #fff; font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; letter-spacing: 0.5px;">AEO (Answer Engine Optimization)</h4>
+                <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin: 0;">
+                    Structuring precise QA formats, conversational semantic optimization loops, and voice search database mappings to seize zero-click voice and dialogue outputs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================================================================
+         PERFORMANCE CASES (PORTFOLIO CASE STUDIES)
+    ================================================================== -->
+    <section id="missions" class="missions-section">
+        <h2 class="section-title">PERFORMANCE CASES</h2>
+
+        <!-- Navigation Tabs for your cases -->
+        <div class="mission-tabs">
+            <button class="mission-tab active" data-tab="bodyhaus">BodyHaus Lifestyle Club</button>
+            <button class="mission-tab" data-tab="msarch">MSarch Digital</button>
+            <button class="mission-tab" data-tab="acompio">Acompio Optimization</button>
+        </div>
+
+        <!-- CASE 1: BODYHAUS LIFESTYLE CLUB -->
+        <div class="mission-content active" id="bodyhaus">
+            <div class="mission-grid" style="display: grid; grid-template-columns: 1fr; gap: 30px;">
+                <div class="mission-card" style="width: 100%; text-align: left;">
+                    <h4>bodyhauslifestyleclub.com — Domain Architecture & Core Growth</h4>
+                    <p>Executed an intensive search visibility strategy that successfully scaled the domain rating, keyword penetration, and organic engagement loops.</p>
+                    
+                    <!-- Metric Comparison Screenshot -->
+                    <h5 style="color: var(--solar-gold); margin: 20px 0 5px 0;">Ahrefs, Semrush, & Moz Comparison (Before vs Current)</h5>
+                    <div class="screenshot-container" style="margin-bottom: 20px; overflow: hidden; border-radius: 8px; border: 1px solid rgba(139, 92, 246, 0.4);">
+                        <img src="bodyhaus-metrics.png" alt="BodyHaus Domain Comparison" style="width: 100%; display: block; height: auto;">
+                    </div>
+
+                    <!-- Traffic Analytics & GSC Grid -->
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px;">
+                        <div>
+                            <h5 style="color: var(--solar-gold); margin-bottom: 5px;">30-Day Traffic Snapshot</h5>
+                            <div class="screenshot-container" style="overflow: hidden; border-radius: 8px; border: 1px solid rgba(139, 92, 246, 0.4);">
+                                <img src="bodyhaus-traffic.png" alt="BodyHaus Analytics Traffic" style="width: 100%; display: block; height: auto;">
+                            </div>
+                        </div>
+                        <div>
+                            <h5 style="color: var(--solar-gold); margin-bottom: 5px;">Google Search Console Performance</h5>
+                            <div class="screenshot-container" style="overflow: hidden; border-radius: 8px; border: 1px solid rgba(139, 92, 246, 0.4);">
+                                <img src="bodyhaus-gsc.png" alt="BodyHaus Google Search Console" style="width: 100%; display: block; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Executive Summary Block -->
+                    <div class="executive-summary" style="margin-top: 30px; padding: 20px; background: rgba(255, 255, 255, 0.03); border-left: 4px solid var(--solar-gold); border-radius: 0 8px 8px 0;">
+                        <h5 style="color: var(--solar-gold); margin-bottom: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Executive Strategy Summary</h5>
+                        <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 12px; color: #e0e0e0;">
+                            To drive these visibility shifts, I designed and executed a multi-layered, complete SEO campaign covering everything from backend optimization to targeted lead acquisition.
+                        </p>
+                        <ul style="list-style-type: none; padding: 0; margin: 0; font-size: 0.9rem; color: #ccc;">
+                            <li style="margin-bottom: 8px;"><strong>🛠️ Technical & Audit Framework:</strong> Conducted comprehensive technical audits to isolate script bloat, eliminate broken indexation paths, and correct canonical routing errors.</li>
+                            <li style="margin-bottom: 8px;"><strong>✍️ On-Page Engine:</strong> Overhauled metadata hierarchies, optimized core content layouts for targeted high-intent commercial keywords, and stabilized the internal linking siloing strategy.</li>
+                            <li style="margin-bottom: 8px;"><strong>📈 Marketing & Local SEO:</strong> Designed geo-targeted local marketing strategies to secure regional dominance while simultaneously preparing the structural web elements for emerging AI Search visibility ecosystems.</li>
+                            <li style="margin-bottom: 0;"><strong>🔗 Off-Page Authority:</strong> Directed a high-tier link acquisition roadmap focused on trust signals and industry contextual alignment to permanently drive domain authority.</li>
+                        </ul>
+                    </div>
+
+                    <div style="margin-top: 20px;">
+                        <span class="mission-status" style="margin-right: 10px;">DR: 0.4 → 14</span>
+                        <span class="mission-status" style="margin-right: 10px;">Traffic: 1.1K Organic</span>
+                        <span class="mission-status">GSC: 2.12K Clicks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CASE 2: MSARCH -->
+        <div class="mission-content" id="msarch">
+            <div class="mission-grid" style="display: grid; grid-template-columns: 1fr; gap: 30px;">
+                <div class="mission-card" style="width: 100%; text-align: left;">
+                    <h4>msarch.co.uk — Authority & Backlink Engineering</h4>
+                    <p>Designed a link-building and domain authority infrastructure project, correcting indexation profiles and driving deeper referring domain coverage.</p>
+                    
+                    <h5 style="color: var(--solar-gold); margin: 20px 0 5px 0;">Ahrefs, Semrush, & Moz Footprint (Before vs After)</h5>
+                    <div class="screenshot-container" style="margin-bottom: 20px; overflow: hidden; border-radius: 8px; border: 1px solid rgba(139, 92, 246, 0.4);">
+                        <img src="msarch-metrics.png" alt="MSarch SEO Improvements" style="width: 100%; display: block; height: auto;">
+                    </div>
+
+                    <!-- Executive Summary Block -->
+                    <div class="executive-summary" style="margin-top: 30px; padding: 20px; background: rgba(255, 255, 255, 0.03); border-left: 4px solid var(--solar-gold); border-radius: 0 8px 8px 0;">
+                        <h5 style="color: var(--solar-gold); margin-bottom: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Executive Strategy Summary</h5>
+                        <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 12px; color: #e0e0e0;">
+                            This regional technical profile demanded an aggressive off-page initiative supported heavily by foundational technical compliance to safely scale search data performance.
+                        </p>
+                        <ul style="list-style-type: none; padding: 0; margin: 0; font-size: 0.9rem; color: #ccc;">
+                            <li style="margin-bottom: 8px;"><strong>🔍 Core Auditing & Tech SEO:</strong> Uncovered deep-crawl blocks preventing backlink juice from distributing cleanly. Standardized XML sitemaps, robots directives, and site load patterns.</li>
+                            <li style="margin-bottom: 8px;"><strong>🌐 Off-Page Dominance:</strong> Engineered a scalable link-acquisition dynamic that scaled active backlinks from 267 to 6.0K, vastly expanding trust footprints across international tracking tools.</li>
+                            <li style="margin-bottom: 0;"><strong>📊 Integrated Marketing:</strong> Tied target pages to specific local and intent-based organic marketing funnels to capture traffic momentum once domain authority metrics verified a safe upward lift.</li>
+                        </ul>
+                    </div>
+
+                    <div style="margin-top: 20px;">
+                        <span class="mission-status" style="margin-right: 10px;">Backlinks: 267 → 6.0K</span>
+                        <span class="mission-status" style="margin-right: 10px;">Ref. Domains: 370</span>
+                        <span class="mission-status">DA: 23 → 24</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CASE 3: ACOMPIO -->
+        <div class="mission-content" id="acompio">
+            <div class="mission-grid" style="display: grid; grid-template-columns: 1fr; gap: 30px;">
+                <div class="mission-card" style="width: 100%; text-align: left;">
+                    <h4>acompio.co.uk — Large Scale Crawl Optimization</h4>
+                    <p>Managed technical crawl optimizations to stabilize keyword positions and expand organic traffic performance margins across high-volume targets.</p>
+                    
+                    <h5 style="color: var(--solar-gold); margin: 20px 0 5px 0;">Ahrefs, Semrush, & Moz Footprint (Before vs After)</h5>
+                    <div class="screenshot-container" style="margin-bottom: 20px; overflow: hidden; border-radius: 8px; border: 1px solid rgba(139, 92, 246, 0.4);">
+                        <img src="acompio-metrics.png" alt="Acompio Optimization Performance" style="width: 100%; display: block; height: auto;">
+                    </div>
+
+                    <!-- Executive Summary Block -->
+                    <div class="executive-summary" style="margin-top: 30px; padding: 20px; background: rgba(255, 255, 255, 0.03); border-left: 4px solid var(--solar-gold); border-radius: 0 8px 8px 0;">
+                        <h5 style="color: var(--solar-gold); margin-bottom: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Executive Strategy Summary</h5>
+                        <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 12px; color: #e0e0e0;">
+                            Optimizing an established domain with heavy inbound link volumes required deep diagnostic precision to ensure technical parameters perfectly sustained high traffic weight.
+                        </p>
+                        <ul style="list-style-type: none; padding: 0; margin: 0; font-size: 0.9rem; color: #ccc;">
+                            <li style="margin-bottom: 8px;"><strong>⚙️ High-Volume Technical SEO:</strong> Performed advanced database, architectural, and server-side analysis to keep continuous rendering speeds responsive during intensive crawler cycles.</li>
+                            <li style="margin-bottom: 8px;"><strong>📈 Strategic Content On-Page:</strong> Remapped key page groups and schema templates to systematically improve keyword intent matching across massive directory scales.</li>
+                            <li style="margin-bottom: 0;"><strong>🛡️ Authority Management (Off-Page):</strong> Shielded existing properties from inbound toxicity while continuing to monitor clean, diverse link acquisition parameters that pushed organic traffic indicators up by +95%.</li>
+                        </ul>
+                    </div>
+
+                    <div style="margin-top: 20px;">
+                        <span class="mission-status" style="margin-right: 10px;">Organic Traffic: +95% Lift</span>
+                        <span class="mission-status" style="margin-right: 10px;">Inbound Links: 849.3K</span>
+                        <span class="mission-status">DR Level: 52</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================================================================
+         CORE TECHNOLOGIES MATRIX
+    ================================================================== -->
+    <section id="equipment" class="equipment-section" style="padding: 100px 0; background: rgba(11, 7, 30, 0.6); position: relative; z-index: 1;">
+        <h2 class="section-title">CORE TECHNOLOGIES</h2>
+        <p style="text-align: center; color: #bbb; max-width: 650px; margin: -20px auto 5px auto; font-size: 0.95rem; line-height: 1.6; padding: 0 20px;">
+            Enterprise-grade diagnostics and raw analytics tooling deployed to map, track, and scale index performance.
+        </p>
+        
+        <!-- Matrix Dashboard Container -->
+        <div style="max-width: 1050px; margin: 50px auto 0 auto; padding: 0 20px; box-sizing: border-box;">
+            <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(139, 92, 246, 0.25); border-radius: 12px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+                
+                <!-- Matrix Header -->
+                <div style="display: grid; grid-template-columns: 220px 1fr; background: rgba(139, 92, 246, 0.1); border-bottom: 1px solid rgba(139, 92, 246, 0.25); padding: 15px 25px; font-weight: 700; font-size: 0.85rem; letter-spacing: 1px; color: var(--solar-gold, #f59e0b);">
+                    <div>ENGINE & PLATFORM</div>
+                    <div>TECHNICAL CAPABILITY & APPLICATION ROADMAP</div>
+                </div>
+
+                <!-- Tool Row 1: Screaming Frog -->
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); border-bottom: 1px solid rgba(255,255,255,0.05); padding: 25px; align-items: center; gap: 15px; background: rgba(255,255,255,0.01);">
+                    <div style="display: flex; align-items: center; gap: 12px; min-width: 180px;">
+                        <span style="font-size: 1.8rem; line-height: 1;">🐸</span>
+                        <span style="font-weight: 700; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px;">Screaming Frog</span>
+                    </div>
+                    <div style="color: #ccc; font-size: 0.9rem; line-height: 1.6; padding-left: 5px;">
+                        Advanced log file parsing, deep Javascript rendering analysis, raw directory crawl depth mapping, and automated diagnostic monitoring for broken indexation paths.
+                    </div>
+                </div>
+
+                <!-- Tool Row 2: Ahrefs -->
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); border-bottom: 1px solid rgba(255,255,255,0.05); padding: 25px; align-items: center; gap: 15px;">
+                    <div style="display: flex; align-items: center; gap: 12px; min-width: 180px;">
+                        <span style="font-size: 1.8rem; line-height: 1;">📊</span>
+                        <span style="font-weight: 700; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px;">Ahrefs Engine</span>
+                    </div>
+                    <div style="color: #ccc; font-size: 0.9rem; line-height: 1.6; padding-left: 5px;">
+                        In-depth organic competitive gap tracking, targeted live link profile auditing, historical link acquisition health validation, and search intent equity scoping.
+                    </div>
+                </div>
+
+                <!-- Tool Row 3: Semrush -->
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); border-bottom: 1px solid rgba(255,255,255,0.05); padding: 25px; align-items: center; gap: 15px; background: rgba(255,255,255,0.01);">
+                    <div style="display: flex; align-items: center; gap: 12px; min-width: 180px;">
+                        <span style="font-size: 1.8rem; line-height: 1;">🔥</span>
+                        <span style="font-weight: 700; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px;">Semrush Suite</span>
+                    </div>
+                    <div style="color: #ccc; font-size: 0.9rem; line-height: 1.6; padding-left: 5px;">
+                        Daily position volatility tracking, algorithmic penalty isolation, keyword cannibalization detection, and real-time competitor Share-of-Voice dashboard analysis.
+                    </div>
+                </div>
+
+                <!-- Tool Row 4: GSC -->
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); border-bottom: 1px solid rgba(255,255,255,0.05); padding: 25px; align-items: center; gap: 15px;">
+                    <div style="display: flex; align-items: center; gap: 12px; min-width: 180px;">
+                        <span style="font-size: 1.8rem; line-height: 1;">📈</span>
+                        <span style="font-weight: 700; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px;">Search Console</span>
+                    </div>
+                    <div style="color: #ccc; font-size: 0.9rem; line-height: 1.6; padding-left: 5px;">
+                        Direct crawling error discovery, core indexation coverage mapping, custom XML sitemap validation, and structured data/rich schema layout tracking.
+                    </div>
+                </div>
+
+                <!-- Tool Row 5: GA4 / GTM -->
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); border-bottom: 1px solid rgba(255,255,255,0.05); padding: 25px; align-items: center; gap: 15px; background: rgba(255,255,255,0.01);">
+                    <div style="display: flex; align-items: center; gap: 12px; min-width: 180px;">
+                        <span style="font-size: 1.8rem; line-height: 1;">⚙️</span>
+                        <span style="font-weight: 700; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px;">GA4 & GTM</span>
+                    </div>
+                    <div style="color: #ccc; font-size: 0.9rem; line-height: 1.6; padding-left: 5px;">
+                        Custom conversion event execution, cross-domain behavioral modeling data filters, custom attribution setups, and tracking script optimization for page speed protection.
+                    </div>
+                </div>
+
+                <!-- Tool Row 6: E-Comm Platforms -->
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); padding: 25px; align-items: center; gap: 15px;">
+                    <div style="display: flex; align-items: center; gap: 12px; min-width: 180px;">
+                        <span style="font-size: 1.8rem; line-height: 1;">🚀</span>
+                        <span style="font-weight: 700; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px;">E-Comm / CMS</span>
+                    </div>
+                    <div style="color: #ccc; font-size: 0.9rem; line-height: 1.6; padding-left: 5px;">
+                        Structural category and taxonomy cleanups across Shopify, WordPress, and Squarespace to handle safe URL pattern rewrites and metadata mass-injection loops.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =================================================================
+         CONTACT / HIRE ME SECTION
+    ================================================================== -->
+    <section id="contact" class="contact-section" style="padding: 80px 0; background: rgba(0, 0, 0, 0.4);">
+        <h2 class="section-title">HIRE ME</h2>
+        <p style="text-align: center; color: #ccc; max-width: 600px; margin: -20px auto 40px auto; font-size: 0.95rem; line-height: 1.6;">
+            Ready to scale your search engine visibility, clear out legacy technical debt, or map out an aggressive international traffic growth strategy? Let's connect.
+        </p>
+
+        <div class="contact-container" style="max-width: 1100px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
+            
+            <!-- Direct Communication Channels Card -->
+            <div class="contact-info-card" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(139, 92, 246, 0.2); border-radius: 8px; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
+                <h3 style="color: var(--solar-gold); font-size: 1.4rem; margin-bottom: 20px; letter-spacing: 0.5px;">DIRECT CHANNELS</h3>
+                <p style="font-size: 0.95rem; color: #aaa; line-height: 1.6; margin-bottom: 30px;">
+                    Drop me a line directly via phone or email for instantaneous project onboarding inquiries, technical consultancy scheduling, or long-term contract discussions.
+                </p>
+                
+                <div style="margin-bottom: 20px;">
+                    <span style="font-size: 0.85rem; color: #777; display: block; text-transform: uppercase; letter-spacing: 1px;">Email Business Desk</span>
+                    <a href="mailto:kubramughal770@gmail.com" style="color: #fff; font-size: 1.1rem; text-decoration: none; font-weight: 500; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#fff'">
+                        kubramughal770@gmail.com
+                    </a>
+                </div>
+
+                <div>
+                    <span style="font-size: 0.85rem; color: #777; display: block; text-transform: uppercase; letter-spacing: 1px;">Direct Contact Number</span>
+                    <a href="tel:+923196095307" style="color: #fff; font-size: 1.1rem; text-decoration: none; font-weight: 500; transition: color 0.3s;" onmouseover="this.style.color='var(--solar-gold)'" onmouseout="this.style.color='#fff'">
+                        03196095307
+                    </a>
+                </div>
+            </div>
+
+            <!-- Interactive Strategy Request Form Linked to your Maildesk -->
+            <div class="contact-form-wrapper">
+                <form class="contact-form" action="mailto:kubramughal770@gmail.com" method="post" enctype="text/plain" style="display: flex; flex-direction: column; gap: 15px;">
+                    <div class="form-group">
+                        <input type="text" name="Name" placeholder="Your Name / Company Name" required style="width: 100%; padding: 15px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; color: #fff; font-family: inherit; outline: none; transition: border-color 0.3s;" onfocus="this.style.borderColor='var(--solar-gold)'" onblur="this.style.borderColor='rgba(255,255,255,0.1)'">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" name="Email" placeholder="Business Email Address" required style="width: 100%; padding: 15px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; color: #fff; font-family: inherit; outline: none; transition: border-color 0.3s;" onfocus="this.style.borderColor='var(--solar-gold)'" onblur="this.style.borderColor='rgba(255,255,255,0.1)'">
+                    </div>
+
+                    <!-- Target Service Selection Menu Dropdown -->
+                    <div class="form-group">
+                        <select name="Requested_Service" required style="width: 100%; padding: 15px; background: #130f26; border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; color: #ccc; font-family: inherit; outline: none; transition: border-color 0.3s; appearance: none; -webkit-appearance: none; cursor: pointer;" onfocus="this.style.borderColor='var(--solar-gold)'; this.style.color='#fff'" onblur="this.style.borderColor='rgba(255,255,255,0.1)'">
+                            <option value="" disabled selected>Select Optimization Service Needed</option>
+                            <option value="On-Page SEO">On-Page SEO Execution</option>
+                            <option value="Off-Page SEO">Off-Page SEO & Link Building</option>
+                            <option value="Technical SEO">Technical SEO Architecture & Auditing</option>
+                            <option value="Local SEO">Local SEO & Map Pack Optimization</option>
+                            <option value="GEO">GEO (Generative Engine Optimization)</option>
+                            <option value="AEO">AEO (Answer Engine Optimization)</option>
+                            <option value="Full Audit Strategy">Comprehensive Enterprise SEO Growth Strategy</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="Website" placeholder="Website URL (Optional)" style="width: 100%; padding: 15px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; color: #fff; font-family: inherit; outline: none; transition: border-color 0.3s;" onfocus="this.style.borderColor='var(--solar-gold)'" onblur="this.style.borderColor='rgba(255,255,255,0.1)'">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea name="Project_Details" placeholder="Project Details & Growth Metrics Desired..." rows="4" required style="width: 100%; padding: 15px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; color: #fff; font-family: inherit; outline: none; transition: border-color 0.3s; resize: vertical;" onfocus="this.style.borderColor='var(--solar-gold)'" onblur="this.style.borderColor='rgba(255,255,255,0.1)'"></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn" style="padding: 16px; background: var(--solar-gold, #f59e0b); border: none; border-radius: 6px; color: #0b071e; font-weight: 700; font-size: 1rem; letter-spacing: 1px; cursor: pointer; transition: opacity 0.3s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
+                        SUBMIT STRATEGY INQUIRY VIA EMAIL
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =================================================================
+         FOOTER SECTION WITH LINKEDIN INTEGRATION
+    ================================================================== -->
+    <footer style="background: #060412; border-top: 1px solid rgba(139, 92, 246, 0.15); padding: 40px 20px; text-align: center;">
+        <div style="max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 20px;">
+            
+            <!-- LinkedIn Interactive Vector Icon Track -->
+            <div class="social-links-footer">
+                <a href="https://www.linkedin.com/in/kaizen-k-63a089222" target="_blank" rel="noopener noreferrer" title="Connect on LinkedIn" style="display: inline-flex; align-items: center; justify-content: center; width: 45px; height: 45px; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(139, 92, 246, 0.25); border-radius: 50%; color: #fff; text-decoration: none; transition: all 0.3s;" onmouseover="this.style.background='rgba(139, 92, 246, 0.2)'; this.style.borderColor='var(--solar-gold)'; this.style.transform='translateY(-3px)'" onmouseout="this.style.background='rgba(255, 255, 255, 0.03)'; this.style.borderColor='rgba(139, 92, 246, 0.25)'; this.style.transform='translateY(0)'">
+                    <svg style="width: 20px; height: 20px; fill: currentColor;" viewBox="0 0 24 24">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <p style="color: #666; font-size: 0.85rem; margin: 0; letter-spacing: 0.5px;">
+                &copy; 2026 KUBRA.SEO Portfolio. All Rights Reserved. Built for Continuous Performance Escalation.
+            </p>
+        </div>
+    </footer>
+
+    <!-- =================================================================
+         TAB SWITCHING SCRIPT FUNCTION (THE TABS FUNCTIONAL FIX)
+    ================================================================== -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.mission-tab');
+            const contents = document.querySelectorAll('.mission-content');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    // Remove active tag definitions across all elements
+                    tabs.forEach(t => t.classList.remove('active'));
+                    contents.forEach(c => {
+                        c.classList.remove('active');
+                        // Backup safeguard to perfectly regulate framework default layouts
+                        c.style.display = 'none';
+                    });
+
+                    // Append active states strictly to targeted selection variables
+                    this.classList.add('active');
+                    const targetId = this.getAttribute('data-tab');
+                    const targetContent = document.getElementById(targetId);
+                    
+                    if(targetContent) {
+                        targetContent.classList.add('active');
+                        targetContent.style.display = 'block';
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
